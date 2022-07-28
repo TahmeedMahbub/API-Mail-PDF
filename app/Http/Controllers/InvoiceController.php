@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Invoice;
-use Illuminate\Support\Facades\Mail;
+use Mail; //IF NOT WORK USE THIS: use Illuminate\Support\Facades\Mail;
 use PDF;
 
 class InvoiceController extends Controller
